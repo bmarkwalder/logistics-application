@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TransportationNetwork>
+
+    <Facility ID = "Seattle, WA">
+        <Neighbor>
+            <NeighborID>San Francisco, CA</NeighborID>
+            <DistanceToNeighbor>808</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Fargo, ND</NeighborID>
+            <DistanceToNeighbor>1426</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "San Francisco, CA">
+        <Neighbor>
+            <NeighborID>Seattle, WA</NeighborID>
+            <DistanceToNeighbor>808</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Los Angeles, CA</NeighborID>
+            <DistanceToNeighbor>384</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Denver, CO</NeighborID>
+            <DistanceToNeighbor>1249</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Los Angeles, CA">
+        <Neighbor>
+            <NeighborID>San Francisco, CA</NeighborID>
+            <DistanceToNeighbor>382</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Phoenix, AZ</NeighborID>
+            <DistanceToNeighbor>372</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Phoenix, AZ">
+        <Neighbor>
+            <NeighborID>Los Angeles, CA</NeighborID>
+            <DistanceToNeighbor>372</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Santa Fe, NM</NeighborID>
+            <DistanceToNeighbor>480</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Fargo, ND">
+        <Neighbor>
+            <NeighborID>Seattle, WA</NeighborID>
+            <DistanceToNeighbor>1426</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Denver, CO</NeighborID>
+            <DistanceToNeighbor>889</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Chicago, IL</NeighborID>
+            <DistanceToNeighbor>643</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Denver, CO">
+        <Neighbor>
+            <NeighborID>San Francisco, CA</NeighborID>
+            <DistanceToNeighbor>1249</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Fargo, ND</NeighborID>
+            <DistanceToNeighbor>889</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Santa Fe, NM</NeighborID>
+            <DistanceToNeighbor>392</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>St. Louis, MO</NeighborID>
+            <DistanceToNeighbor>851</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Santa Fe, NM">
+        <Neighbor>
+            <NeighborID>Phoenix, AZ</NeighborID>
+            <DistanceToNeighbor>480</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Denver, CO</NeighborID>
+            <DistanceToNeighbor>392</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>St. Louis, MO</NeighborID>
+            <DistanceToNeighbor>1032</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Austin, TX</NeighborID>
+            <DistanceToNeighbor>688</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Chicago, IL">
+        <Neighbor>
+            <NeighborID>Fargo, ND</NeighborID>
+            <DistanceToNeighbor>643</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>St. Louis, MO</NeighborID>
+            <DistanceToNeighbor>297</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Detroit, MI</NeighborID>
+            <DistanceToNeighbor>282</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>New York City, NY</NeighborID>
+            <DistanceToNeighbor>790</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "St. Louis, MO">
+        <Neighbor>
+            <NeighborID>Denver, CO</NeighborID>
+            <DistanceToNeighbor>851</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Santa Fe, NM</NeighborID>
+            <DistanceToNeighbor>1032</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Chicago, IL</NeighborID>
+            <DistanceToNeighbor>297</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Austin, TX</NeighborID>
+            <DistanceToNeighbor>825</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Nashville, TN</NeighborID>
+            <DistanceToNeighbor>309</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Austin, TX">
+        <Neighbor>
+            <NeighborID>Santa Fe, NM</NeighborID>
+            <DistanceToNeighbor>688</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>St. Louis, MO</NeighborID>
+            <DistanceToNeighbor>825</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>New Orleans, LA</NeighborID>
+            <DistanceToNeighbor>512</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Detroit, MI">
+        <Neighbor>
+            <NeighborID>Chicago, IL</NeighborID>
+            <DistanceToNeighbor>282</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Boston, MA</NeighborID>
+            <DistanceToNeighbor>719</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>New York City, NY</NeighborID>
+            <DistanceToNeighbor>614</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Nashville, TN">
+        <Neighbor>
+            <NeighborID>St. Louis, MO</NeighborID>
+            <DistanceToNeighbor>309</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>New Orleans, LA</NeighborID>
+            <DistanceToNeighbor>532</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Norfolk, VA</NeighborID>
+            <DistanceToNeighbor>706</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "New Orleans, LA">
+        <Neighbor>
+            <NeighborID>Austin, TX</NeighborID>
+            <DistanceToNeighbor>512</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Nashville, TN</NeighborID>
+            <DistanceToNeighbor>532</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Atlanta, GA</NeighborID>
+            <DistanceToNeighbor>469</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Miami, FL</NeighborID>
+            <DistanceToNeighbor>864</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Boston, MA">
+        <Neighbor>
+            <NeighborID>Detroit, MI</NeighborID>
+            <DistanceToNeighbor>719</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>New York City, NY</NeighborID>
+            <DistanceToNeighbor>215</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "New York City, NY">
+        <Neighbor>
+            <NeighborID>Chicago, IL</NeighborID>
+            <DistanceToNeighbor>790</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Detroit, MI</NeighborID>
+            <DistanceToNeighbor>614</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Boston, MA</NeighborID>
+            <DistanceToNeighbor>215</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Norfolk, VA</NeighborID>
+            <DistanceToNeighbor>363</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Norfolk, VA">
+        <Neighbor>
+            <NeighborID>Nashville, TN</NeighborID>
+            <DistanceToNeighbor>706</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>New York City, NY</NeighborID>
+            <DistanceToNeighbor>363</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Atlanta, GA</NeighborID>
+            <DistanceToNeighbor>566</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Atlanta, GA">
+        <Neighbor>
+            <NeighborID>New Orleans, LA</NeighborID>
+            <DistanceToNeighbor>469</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Norfolk, VA</NeighborID>
+            <DistanceToNeighbor>566</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Miami, FL</NeighborID>
+            <DistanceToNeighbor>663</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+    <Facility ID = "Miami, FL">
+        <Neighbor>
+            <NeighborID>New Orleans, LA</NeighborID>
+            <DistanceToNeighbor>864</DistanceToNeighbor>
+        </Neighbor>
+        <Neighbor>
+            <NeighborID>Atlanta, GA</NeighborID>
+            <DistanceToNeighbor>663</DistanceToNeighbor>
+        </Neighbor>
+    </Facility>
+
+</TransportationNetwork>
